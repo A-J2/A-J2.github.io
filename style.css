@@ -1,0 +1,166 @@
+header {
+    margin-top: -100px;
+    /* margin-left: -10px; */
+    /* margin-right: -10px; */
+    margin-bottom: -100px;
+}
+
+#CompanyLogo {
+    width: 50vh;
+    height: 50vh;
+    /* margin-left: 0px; */
+    /* padding-left: 0px; */
+    /* margin-top: 0px; */
+    clip-path: inset(5vh 5vh 11vh 5vh);
+}
+
+article:first-of-type {
+    margin-top: -50px; /* Pull only the first article upwards */
+}
+body > header {
+    display: flex;
+    background-color:#363636;
+     clip-path: inset(10vh 0vh 10vh 0vh); 
+}
+
+.header-content {
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 19vh;
+}
+
+#logo {
+    margin: 0px;
+    color:#dbcb98;
+    font-size: 35px;
+
+}
+
+body > header > div > nav > ul {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.navbutton{
+    list-style: none;
+    text-decoration: none;
+    color:#dbcb98;
+    justify-content: space-evenly;
+    margin-left: 90px;
+    font-size: 22px;
+    transition: opacity 0.15s;
+}
+
+
+.navbutton:hover {
+    opacity: 0.8;
+}
+.navbutton:active {
+    opacity: 0.5;
+}
+#menu {
+    list-style: none;
+    text-decoration: none;
+}
+
+#main-content {
+    padding: 32px;
+    background-color: #dbcb98;
+    /* margin-left: -10px; */
+    /* margin-right: -10px; */
+}
+
+footer {
+    padding: 16px;
+    background-color: #363636;
+    color: #dbcb98;
+    font-weight: bold;
+    text-align: center;
+}
+
+#Reviews {
+    display: grid;
+    grid-template-areas: 
+    "q1 q2 q3";
+    /* margin-right: -25px; */
+}
+
+#q1{
+    grid-area: q1;
+}
+#q2{
+    grid-area: q2;
+}
+#q3{
+    grid-area: q3;
+}
+
+form {
+    text-align: center;
+    background-color: #363636;
+    font-size: 25px    ;
+}
+#first_name {
+    background-color:#363636;
+    color: #dbcb98;
+}
+#last_name {
+    background-color:#363636;
+    color: #dbcb98;
+}
+#email {
+    background-color:#363636;
+    color: #dbcb98;
+}
+#password {
+    background-color:#363636;
+    color: #dbcb98;
+}
+#number {
+    background-color:#363636;
+    color: #dbcb98;
+}
+#country {
+    background-color:#363636;
+    color: #dbcb98;
+}
+#bio {
+    background-color:#363636;
+    color: #dbcb98;
+}
+label{
+    color: #dbcb98;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    background-color: #dbcb98;
+    margin: 0px;
+    font-size: 30px;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+#BOX{
+background-color: #dbcb98;
+margin: 0px;
+}
+
+
+p {
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+cite {
+    font-size: 30px;
+}
+
+body {
+    margin: 0px;
+}
